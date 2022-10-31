@@ -6,7 +6,7 @@ pygame.init()
 pygame.display.set_caption('ping pong')
 surface = pygame.display.set_mode((850,450))
 background = pygame.Color(90, 160, 130) 
-surface.fill(background) 
+surface.fill(bg) 
 pygame.display.update()        
 
 while True:
